@@ -1,0 +1,16 @@
+{
+  "name": "superagent",
+  "main": "lib/client.js",
+  "homepage": "https://github.com/visionmedia/superagent",
+  "version": "1.6.1",
+  "_release": "1.6.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.6.1",
+    "commit": "14699d279ba1cf96c3afb0d9296a141b72396cf5"
+  },
+  "_source": "git://github.com/visionmedia/superagent.git",
+  "_target": "~1.6.1",
+  "_originalSource": "superagent",
+  "_direct": true
+}
