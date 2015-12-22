@@ -30,7 +30,7 @@ var _bPackageCache = {};
 
 gulp.task('build', function() {
     var vendorsBundle = browserify({
-        entries: './src/base.js',
+        entries: '',
         cache: _bCache,
         packageCache: _bPackageCache
     });
@@ -48,7 +48,7 @@ gulp.task('build', function() {
         .plugin(collapser);
 
     vendorsBundle.bundle()
-        .pipe(source('build.js'))
+        .pipe(source('index.js'))
         .pipe(gulp.dest('./build'));
 
     vendorsBundle.on('error', function(err) {
