@@ -8,7 +8,6 @@
 *.swn
 *.DS_Store
 *.build/
-build/
 *.log
 *.map
 .sass-cache
